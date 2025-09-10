@@ -1,0 +1,143 @@
+.cart-wrapper h1 {
+  padding: 30px 30px;
+}
+
+.cart-container {
+  max-width: 600px;
+  margin: 20px auto;
+  border-radius: 12px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 15px;
+}
+
+.cart-item {
+  justify-content: space-between;
+  display: flex;
+  align-items: center;
+  border-bottom: 2px solid #eee;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+}
+
+.cart-item img {
+  width: 40px;
+  height: 40px;
+  object-fit: cover;
+  margin-right: 10px;
+}
+
+.image-description {
+  display: flex;
+}
+
+.cart-item-details {
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+}
+
+.cart-item-text {
+  font-size: 1.2em;
+  font-weight: 500;
+  padding-bottom: 5px;
+}
+
+.cart-total {
+  text-align: end;
+  font-size: 1.5em;
+  font-weight: 400;
+  padding: 10px 0;
+}
+
+.cart-buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.add-to-cart {
+  background-color: black;
+  color: #f9f9f6;
+  border: none;
+  width: 100px;
+  height: 40px;
+  font-family: "Roboto", sans-serif;
+  cursor: pointer;
+}
+
+.add-to-cart.white {
+  background-color: #f9f9f6;
+  color: black;
+  border: 2px solid black;
+}
+
+.remove-stotal {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.qty-btn {
+  border: none;
+  background: transparent;
+  font-size: 20px;
+}
+
+.cart-item-quantity span {
+  font-size: 1.1em;
+}
+
+.transparent-button {
+  background-color: #f9f9f6;
+  border: 1px solid black;
+  text-transform: uppercase;
+  color: #000;
+  cursor: pointer;
+}
+
+.transparent-button.black {
+  background-color: #000;
+  color: #f9f9f6;
+}
+
+.checkout-btn {
+  background-color: #000;
+  border: 1px solid black;
+  text-transform: uppercase;
+  color: #f9f9f6;
+  cursor: pointer;
+  padding: 10px;
+}
+
+.clear-cart {
+  background-color: #f9f9f6;
+  border: 1px solid black;
+  text-transform: uppercase;
+  color: #000;
+  cursor: pointer;
+  padding: 10px;
+}
+
+.cart-summary {
+  width: 600px;
+  margin: 0 auto;
+}
+
+.cart-summary h3 {
+  text-align: end;
+}
+
+.clear-proceed {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+@media only screen and (min-width: 0px) and (max-width: 479px) {
+  .cart-wrapper h1 {
+    padding: 10px 10px;
+    font-size: 1.6em;
+    text-transform: uppercase;
+    font-weight: 600;
+  }
+}
