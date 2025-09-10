@@ -1,0 +1,10 @@
+/* this is just a test platform */
+
+.pro-image {
+    width: 215px;
+    height: auto;
+    transition: transform 0.3s ease-in-out;
+}
+.pro-image.expanded {
+    transform: scale(1.5); 
+}

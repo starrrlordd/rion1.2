@@ -1,0 +1,86 @@
+{
+    "products": [
+      {
+        "id": 1,
+        "name": "Rush Soul - in the life",
+        "category": "t-shirts",
+        "price": 250,
+        "image": "../img/products/tshirts/img7.JPG",
+        "description": "Soft cotton t-shirt featuring a bold print."
+      },
+      {
+        "id": 2,
+        "name": "Slim Fit Denim Jeans",
+        "category": "jeans",
+        "price": 350,
+        "image": "../img/products/jeans/jeans1.png",
+        "description": "Classic slim fit jeans made with durable denim."
+      },
+      {
+        "id": 3,
+        "name": "Regular Fit Striped Cotton Shirt",
+        "category": "shirts",
+        "price": 150,
+        "image": "../img/products/shirts/shirt1.png",
+        "description": "A casual striped cotton shirt with a relaxed fit"
+      },
+      {
+        "id": 4,
+        "name": "Oversized Hoodie",
+        "category": "hoodies",
+        "price": 300,
+        "image": "../img/products/hoodies/hoodie1.png",
+        "description": "Warm oversized hoodie with a front pocket."
+      },
+      {
+        "id": 5,
+        "name": "Cotton Joggers",
+        "category": "joggers",
+        "price": 350,
+        "image": "../img/products/joggers/jogger1.png",
+        "description": "Comfortable cotton joggers with an elastic waistband."
+      },
+      {
+        "id": 6,
+        "name": "Regular-fit cargo trousers",
+        "category": "cargos",
+        "price": 350,
+        "image": "../img/products/cargo-pants/cargo1.png",
+        "description": "Stylish cargo trousers with multiple pockets."
+      },
+      {
+        "id": 7,
+        "name": "Slim-fit ribbed tank top",
+        "category": "sleeveless",
+        "price": 250,
+        "image": "../img/products/sleeveless/sleeveless1.png",
+        "description": "A trendy ribbed tank top with a slim fit."
+      },
+      {
+        "id": 8,
+        "name": "Cotton Ribbed sweat neck",
+        "category": "sweaters",
+        "price": 300,
+        "image": "../img/products/sweaters/sweater1.png",
+        "description": "A cozy cotton ribbed sweater with a crew neck."
+      },
+      {
+        "id": 9,
+        "name": "Slim-fit shorts",
+        "category": "shorts",
+        "price": 300,
+        "image": "../img/products/shorts/short1.png",
+        "description": "Lightweight slim-fit shorts perfect for summer."
+      },
+      {
+        "id": 10,
+        "name": "Cotton Lyocell Jacket",
+        "category": "jackets",
+        "price": 300,
+        "image": "../img/products/jackets/jacket1.png",
+        "description": "A stylish cotton lyocell jacket with a modern cut."
+      }
+
+    ]
+  }
+  
