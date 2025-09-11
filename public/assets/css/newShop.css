@@ -43,6 +43,8 @@
   display: none;
   position: fixed;
   right: 0;
+  top: 0;
+  z-index: 99999;
   width: 400px;
   height: 100%;
   background: #f9f9f6;
@@ -162,7 +164,7 @@
     left: 0;
     height: 100%;
     width: 100%;
-    background-color: rgba(0, 0, 0, 0.8);
+    background-color: #f9f9f6;
     justify-content: center;
     z-index: 999;
     align-items: center;
@@ -180,7 +182,7 @@
     position: absolute;
     top: 60px;
     right: 20px;
-    color: #f9f9f6;
+    color: #000;
     font-size: 20px;
   }
 
@@ -197,6 +199,7 @@
     text-align: center;
     margin: 10px;
     font-size: 15px;
+    color: #000;
   }
 
   .zoom-product-description {
@@ -211,5 +214,29 @@
 
   #add-to-cart {
     font-size: 15px;
+    color: #000;
+  }
+}
+
+@media only screen and (min-width: 0px) and (max-width: 420px) {
+  .products-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(121px, 1fr));
+  }
+
+  .pro-image-container {
+    height: 169px;
+  }
+
+  .pro-image-container img {
+    height: 169px;
+  }
+
+  .cart-sidebar {
+    width: 350px;
+  }
+
+  .close-x-button {
+    top: 30px;
   }
 }

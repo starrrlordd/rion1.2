@@ -20,7 +20,7 @@
   </head>
 
   <body>
-    <header class="header-container">
+    
       <div class="nav-container">
         <div class="logo">
           <h4>
@@ -28,9 +28,9 @@
           </h4>
         </div>
         <div>
-            <div class="icons">
+          <div class="icons">
             <div class="cart-button">
-              <a href="assets/html/cart.html"
+              <a href="cart.html"
                 ><i class="fa-solid fa-cart-shopping"></i
               ></a>
             </div>
@@ -42,26 +42,48 @@
           <div class="close-button">
             <i class="fa-solid fa-xmark" style="font-size: 26px"></i>
           </div>
+          <div class="icons-tablet">
+            <div class="shop-button">
+              <a href="../newShop.html"
+                ><i class="fa-solid fa-shop"></i
+              ></a>
+            </div>
+            <div class="cart-button">
+              <a href="../cart.html"
+                ><i class="fa-solid fa-cart-shopping"></i
+              ></a>
+            </div>
+            <div class="login-button">
+              <a href="login/login.html"
+                ><i class="fa-solid fa-user"></i
+              ></a>
+            </div>
+            <div class="contact-button">
+              <a href="../contact.html"
+                ><i class="fa-solid fa-address-book"></i
+              ></a>
+            </div>
+          </div>
 
           <ul class="nav-links">
             <li>
               <h4>
-                <a class="nav-link" href="../newShop.html">Shop</a>
+                <a href="../newShop.html">Shop</a>
               </h4>
             </li>
             <li>
               <h4>
-                <a class="nav-link" href="../cart.html">Cart</a>
+                <a href="../cart.html">Cart</a>
               </h4>
             </li>
             <li>
               <h4>
-                <a class="nav-link active" href="login.html">Login</a>
+                <a class="active" href="/login/login.html">Login</a>
               </h4>
             </li>
             <li>
               <h4>
-                <a class="nav-link" href="#">Contact us</a>
+                <a href="../contact.html">Contact us</a>
               </h4>
             </li>
           </ul>
@@ -100,10 +122,10 @@
               <label for="stay-signed">Stay signed in</label>
             </div>
             <div>
-              <button id="login-button" class="login-button">Login</button>
+              <button id="login-button" class="login-login-button">Login</button>
             </div>
             <a href="../login/createAccount.html">
-              <button class="login-button white" id="create-account">
+              <button class="login-login-button white" id="create-account">
                 Create account
               </button>
             </a>

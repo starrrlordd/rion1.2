@@ -40,7 +40,7 @@ a {
   text-underline-offset: 6px;
 }
 
-.transparent-button {
+.home-transparent-button {
   background: transparent;
   border: none;
   text-transform: uppercase;
@@ -48,7 +48,7 @@ a {
   cursor: pointer;
 }
 
-.transparent-button.black {
+.home-transparent-button.black {
   color: #000;
 }
 
@@ -475,9 +475,11 @@ a {
     right: -100%;
     top: 73px;
     width: 100vw;
+    height: 100vh;
     align-items: end;
     padding: 20px 57px 46px;
     gap: 35px;
+    z-index: 99;
     transition: 0.3s ease;
   }
 
@@ -573,5 +575,11 @@ a {
 
   .hero-content div a {
     font-size: 17px;
+  }
+}
+
+@media only screen and (min-width: 0px) and (max-width: 375px) {
+  .social-links ul {
+    column-gap: 5px;
   }
 }

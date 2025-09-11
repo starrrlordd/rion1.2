@@ -1,3 +1,9 @@
+document.addEventListener("keydown", (event) => {
+  if (event.key === "Escape" && sidebar.classList.contains("open")) {
+    closeCart();
+  }
+})
+
 const overlaySidebar = document.querySelector(".overlay-x-sidebar");
 
 // =============================
@@ -90,11 +96,17 @@ function openProductOverlay(product) {
   );
   const expandImage = document.getElementById("zoom-image");
   const expandedPrice = document.getElementById("zoom-product-price");
+  const addToCartButton = document.getElementById("add-to-cart");
   expandImage.src = product.image;
 
   productOverlay.classList.add("overlayactive");
   zoomProDescription.innerHTML = `${product.name}`;
   expandedPrice.innerHTML = `₵${product.price}`;
+
+  addToCartButton.onclick = () => {
+    addItem(product);
+    openCart();
+  }
 }
 
 function setupOverlay(card, product) {
@@ -294,7 +306,12 @@ function closeCart() {
   overlaySidebar.classList.remove("open")
 }
 
-cartCloseButton.addEventListener("click", closeCart);
+cartCloseButton.addEventListener("click", () => {
+  closeCart();
+  if (productOverlay.classList.contains("overlayactive")) {
+    productOverlay.classList.remove("overlayactive");
+  }
+});
 
 // =============================
 // INIT

@@ -140,4 +140,8 @@
     text-transform: uppercase;
     font-weight: 600;
   }
+
+  .cart-summary {
+    width: auto;
+  }
 }
