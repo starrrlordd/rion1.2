@@ -1,0 +1,614 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-AU-Compatible" content="IE-edge" />
+    <title>Doumbie Online 1.2 | Shop</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../css/styles.css" />
+    <link rel="stylesheet" href="../css/shop.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="icon" href="../img/favicon.ico" type="image/x-icon" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+  </head>
+
+  <body>
+    <header class="header-container">
+      <div class="nav-container">
+        <div class="logo">
+          <h4>
+            <a href="../../index.html">Doumbia Online</a>
+          </h4>
+        </div>
+        <div>
+            <div class="icons">
+              <div id="fav-buttton" class="fav-button">
+                <i class="fa-solid fa-heart"></i>
+              </div>
+              <div id="cart-button" class="cart-button">
+                <i class="fa-solid fa-cart-shopping"></i>
+              </div>
+              <div id="hamburger-button" class="hamburger-button">
+                <i class="fa-solid fa-bars"></i>
+              </div>
+            </div>
+            <div class="close-button">
+              <i class="fa-solid fa-xmark" style="font-size: 26px"></i>
+            </div>
+
+          <ul class="nav-links">
+            <li>
+              <h4>
+                <a class="nav-link active" href="shop.html">Shop</a>
+              </h4>
+            </li>
+            <li>
+              <h4>
+                <a class="nav-link" href="cart.html">Cart</a>
+              </h4>
+            </li>
+            <li>
+              <h4>
+                <a class="nav-link" href="../html/login/login.html">Login</a>
+              </h4>
+            </li>
+            <li>
+              <h4>
+                <a class="nav-link" href="#">Contact us</a>
+              </h4>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <div class="shop-wrapper">
+        <div class="store">Store</div>
+        <div class="p-list-container">
+          <div class="p-list-fo">
+            <ul class="p-list">
+              <li>
+                <a class="product" href="#">inventory</a>
+              </li>
+              <li><a class="product" href="#">T-shirts</a></li>
+              <li><a class="product" href="#">Jeans</a></li>
+              <li><a class="product" href="#">Shirts</a></li>
+              <li><a class="product" href="#">Joggers</a></li>
+              <li>
+                <a class="product" href="#">Cargos</a>
+              </li>
+              <li><a class="product" href="#">Sleeveless</a></li>
+              <li><a class="product" href="#">Sweaters</a></li>
+              <li><a class="product" href="#">Hoodies</a></li>
+              <li><a class="product" href="#">Shorts</a></li>
+              <li><a class="product" href="#">Jackets</a></li>
+            </ul>
+            <button class="fO-button transparent-button black" id="fO-button">
+              Filter and order
+            </button>
+          </div>
+        </div>
+        <div class="products-container">
+          <ul class="products-grid-container">
+            <li
+              class="product-card"
+              data-category="t-shirts"
+              style="display: block"
+            >
+              <div class="pro-image-container">
+                <img
+                  class="image-container"
+                  src="../img/products/tshirts/img7.JPG"
+                  alt="T-shirts"
+                />
+              </div>
+              <div class="pro-description">
+                <div class="pro-details">
+                  <p>Rush soul - in the life</p>
+                  <div class="pro-icons">
+                    <button id="add-to-cart-icon">
+                      <i class="fa-solid fa-cart-shopping"></i>
+                    </button>
+                  </div>
+                </div>
+                <div><p>&#8373; 250</p></div>
+              </div>
+            </li>
+            <li
+              class="product-card"
+              data-category="shirts"
+              style="display: block"
+            >
+              <div class="pro-image-container">
+                <img
+                  class="image-container"
+                  src="../img/products/shirts/shirt1.png"
+                  alt="Shirt"
+                />
+              </div>
+              <div class="pro-description">
+                <div class="pro-details">
+                  <p>Regular fit stripped cotton shirt</p>
+                  <div class="pro-icons">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                  </div>
+                </div>
+                <div><p>&#8373; 250</p></div>
+              </div>
+            </li>
+            <li
+              class="product-card"
+              data-category="joggers"
+              style="display: block"
+            >
+              <div class="pro-image-container">
+                <img
+                  class="image-container"
+                  src="../img/products/joggers/jogger1.png"
+                  alt="Joggers"
+                />
+              </div>
+              <div class="pro-description">
+                <div class="pro-details">
+                  <p>Cotton Joggers</p>
+                  <div class="pro-icons">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                  </div>
+                </div>
+                <div><p>&#8373; 350</p></div>
+              </div>
+            </li>
+            <li
+              class="product-card"
+              data-category="jeans"
+              style="display: block"
+            >
+              <div class="pro-image-container">
+                <img
+                  class="image-container"
+                  src="../img/products/jeans/jeans1.png"
+                  alt="Shirt"
+                />
+              </div>
+              <div class="pro-description">
+                <div class="pro-details">
+                  <p>Regular fit stripped cotton shirt</p>
+                  <div class="pro-icons">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                  </div>
+                </div>
+                <div><p>&#8373; 350</p></div>
+              </div>
+            </li>
+            <li
+              class="product-card"
+              data-category="cargopants"
+              style="display: block"
+            >
+              <div class="pro-image-container">
+                <img
+                  class="image-container"
+                  src="../img/products/cargo-pants/cargo1.png"
+                  alt="Cargo Pants"
+                />
+              </div>
+              <div class="pro-description">
+                <div class="pro-details">
+                  <p>Regular-fit cargo trousers</p>
+                  <div class="pro-icons">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                  </div>
+                </div>
+                <div><p>&#8373; 350</p></div>
+              </div>
+            </li>
+            <li
+              class="product-card"
+              data-category="sleeveless"
+              style="display: block"
+            >
+              <div class="pro-image-container">
+                <img
+                  class="image-container"
+                  src="../img/products/sleeveless/sleevless1.png"
+                  alt="Sleeveless"
+                />
+              </div>
+              <div class="pro-description">
+                <div class="pro-details">
+                  <p>Slim-fit ribbed tank top</p>
+                  <div class="pro-icons">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                  </div>
+                </div>
+                <div><p>&#8373; 250</p></div>
+              </div>
+            </li>
+            <li
+              class="product-card"
+              data-category="sweaters"
+              style="display: block"
+            >
+              <div class="pro-image-container">
+                <img
+                  class="image-container"
+                  src="../img/products/sweaters/sweater1.png"
+                  alt="Sweaters"
+                />
+              </div>
+              <div class="pro-description">
+                <div class="pro-details">
+                  <p>Ribbed sweater with zip neck</p>
+                  <div class="pro-icons">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                  </div>
+                </div>
+                <div><p>&#8373; 350</p></div>
+              </div>
+            </li>
+            <li
+              class="product-card"
+              data-category="hoodies"
+              style="display: block"
+            >
+              <div class="pro-image-container">
+                <img
+                  class="image-container"
+                  src="../img/products/hoodies/hoodie1.png"
+                  alt="Hoodies"
+                />
+              </div>
+              <div class="pro-description">
+                <div class="pro-details">
+                  <p>Hoodie cotton sweatshirt</p>
+                  <div class="pro-icons">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                  </div>
+                </div>
+                <div><p>&#8373; 350</p></div>
+              </div>
+            </li>
+            <li
+              class="product-card"
+              data-category="shorts"
+              style="display: block"
+            >
+              <div class="pro-image-container">
+                <img
+                  class="image-container"
+                  src="../img/products/shorts/short1.png"
+                  alt="Shorts"
+                />
+              </div>
+              <div class="pro-description">
+                <div class="pro-details">
+                  <p>Linen blend bemuda short</p>
+                  <div class="pro-icons">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                  </div>
+                </div>
+                <div><p>&#8373; 350</p></div>
+              </div>
+            </li>
+            <li
+              class="product-card"
+              data-category="jackets"
+              style="display: block"
+            >
+              <div class="pro-image-container">
+                <img
+                  class="image-container"
+                  src="../img/products/jackets/jacket1.png"
+                  alt="Jackets"
+                />
+              </div>
+              <div class="pro-description">
+                <div class="pro-details">
+                  <p>Cotton Lyocell Jacket</p>
+                  <div class="pro-icons">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                  </div>
+                </div>
+                <div><p>&#8373; 350</p></div>
+              </div>
+            </li>
+            <li
+              class="product-card"
+              data-category="t-shirts"
+              style="display: block"
+            >
+              <div class="pro-image-container">
+                <img
+                  class="image-container"
+                  src="../img/products/tshirts/img7.JPG"
+                  alt="T-shirts"
+                />
+              </div>
+              <div class="pro-description">
+                <div class="pro-details">
+                  <p>Rush soul - in the life</p>
+                  <div class="pro-icons">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                  </div>
+                </div>
+                <div><p>&#8373; 250</p></div>
+              </div>
+            </li>
+            <li
+              class="product-card"
+              data-category="shirts"
+              style="display: block"
+            >
+              <div class="pro-image-container">
+                <img
+                  class="image-container"
+                  src="../img/products/shirts/shirt1.png"
+                  alt="Shirt"
+                />
+              </div>
+              <div class="pro-description">
+                <div class="pro-details">
+                  <p>Regular fit stripped cotton shirt</p>
+                  <div class="pro-icons">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                  </div>
+                </div>
+                <div><p>&#8373; 250</p></div>
+              </div>
+            </li>
+            <li
+              class="product-card"
+              data-category="joggers"
+              style="display: block"
+            >
+              <div class="pro-image-container">
+                <img
+                  class="image-container"
+                  src="../img/products/joggers/jogger1.png"
+                  alt="Joggers"
+                />
+              </div>
+              <div class="pro-description">
+                <div class="pro-details">
+                  <p>Cotton Joggers</p>
+                  <div class="pro-icons">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                  </div>
+                </div>
+                <div><p>&#8373; 350</p></div>
+              </div>
+            </li>
+            <li
+              class="product-card"
+              data-category="jeans"
+              style="display: block"
+            >
+              <div class="pro-image-container">
+                <img
+                  class="image-container"
+                  src="../img/products/jeans/jeans1.png"
+                  alt="Shirt"
+                />
+              </div>
+              <div class="pro-description">
+                <div class="pro-details">
+                  <p>Regular fit stripped cotton shirt</p>
+                  <div class="pro-icons">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                  </div>
+                </div>
+                <div><p>&#8373; 350</p></div>
+              </div>
+            </li>
+            <li
+              class="product-card"
+              data-category="cargos"
+              style="display: block"
+            >
+              <div class="pro-image-container">
+                <img
+                  class="image-container"
+                  src="../img/products/cargo-pants/cargo1.png"
+                  alt="Cargo Pants"
+                />
+              </div>
+              <div class="pro-description">
+                <div class="pro-details">
+                  <p>Regular-fit cargo trousers</p>
+                  <div class="pro-icons">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                  </div>
+                </div>
+                <div><p>&#8373; 350</p></div>
+              </div>
+            </li>
+            <li
+              class="product-card"
+              data-category="sleeveless"
+              style="display: block"
+            >
+              <div class="pro-image-container">
+                <img
+                  class="image-container"
+                  src="../img/products/sleeveless/sleevless1.png"
+                  alt="Sleeveless"
+                />
+              </div>
+              <div class="pro-description">
+                <div class="pro-details">
+                  <p>Slim-fit ribbed tank top</p>
+                  <div class="pro-icons">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                  </div>
+                </div>
+                <div><p>&#8373; 250</p></div>
+              </div>
+            </li>
+            <li
+              class="product-card"
+              data-category="sweaters"
+              style="display: block"
+            >
+              <div class="pro-image-container">
+                <img
+                  class="image-container"
+                  src="../img/products/sweaters/sweater1.png"
+                  alt="Sweaters"
+                />
+              </div>
+              <div class="pro-description">
+                <div class="pro-details">
+                  <p>Ribbed sweater with zip neck</p>
+                  <div class="pro-icons">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                  </div>
+                </div>
+                <div><p>&#8373; 350</p></div>
+              </div>
+            </li>
+            <li
+              class="product-card"
+              data-category="hoodies"
+              style="display: block"
+            >
+              <div class="pro-image-container">
+                <img
+                  class="image-container"
+                  src="../img/products/hoodies/hoodie1.png"
+                  alt="Hoodies"
+                />
+              </div>
+              <div class="pro-description">
+                <div class="pro-details">
+                  <p>Hoodie cotton sweatshirt</p>
+                  <div class="pro-icons">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                  </div>
+                </div>
+                <div><p>&#8373; 350</p></div>
+              </div>
+            </li>
+            <li
+              class="product-card"
+              data-category="shorts"
+              style="display: block"
+            >
+              <div class="pro-image-container">
+                <img
+                  class="image-container"
+                  src="../img/products/shorts/short1.png"
+                  alt="Shorts"
+                />
+              </div>
+              <div class="pro-description">
+                <div class="pro-details">
+                  <p>Linen blend bemuda short</p>
+                  <div class="pro-icons">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                  </div>
+                </div>
+                <div><p>&#8373; 350</p></div>
+              </div>
+            </li>
+            <li
+              class="product-card"
+              data-category="jackets"
+              style="display: block"
+            >
+              <div class="pro-image-container">
+                <img
+                  class="image-container"
+                  src="../img/products/jackets/jacket1.png"
+                  alt="Jackets"
+                />
+              </div>
+              <div class="pro-description">
+                <div class="pro-details">
+                  <p>Cotton Lyocell Jacket</p>
+                  <div class="pro-icons">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                  </div>
+                </div>
+                <div><p>&#8373; 350</p></div>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </main>
+
+    <footer class="full-footer">
+      <div class="newsletter-container-parent">
+        <div class="newsletter-container">
+          <h4 class="p1">
+            10% of your next purchase by subscribing to newsletter
+          </h4>
+          <div class="newsletter-form p1">
+            <input
+              class="newsletter-input"
+              id="newsletter-input"
+              type="text"
+              placeholder="E-mail"
+            />
+            <button class="newsletter-button" id="newsletter-button">
+              Sign Up
+            </button>
+          </div>
+          <p class="p1">
+            By Subscribing, you confirm that you have read the
+            <span style="font-weight: bold"
+              ><a href="#">privacy policy</a></span
+            >
+          </p>
+        </div>
+      </div>
+
+      <div class="social-links">
+        <ul>
+          <li>
+            <a
+              href="https://web.facebook.com/profile.php?id=61578253329608"
+              target="_blank"
+              >Facebook</a
+            >
+          </li>
+          <li><a href="https://x.com/DoumbiaOnline" target="_blank">x</a></li>
+          <li>
+            <a href="https://www.instagram.com/doumbiaonline/" target="_blank"
+              >instagram</a
+            >
+          </li>
+          <li>
+            <a href="https://www.tiktok.com/@doumbiaonline" target="_blank"
+              >tiktok</a
+            >
+          </li>
+          <li><a href="#">snapchat</a></li>
+          <li><a href="#">youtube</a></li>
+        </ul>
+      </div>
+      <ul class="navigation-list">
+        <li><a href="#">About us</a></li>
+        <li><a href="#">Terms and conditions</a></li>
+        <li><a href="#">Help</a></li>
+        <li><a href="#">Delivery information</a></li>
+        <li><a href="#">Privacy policy</a></li>
+        <li><a href="#">My wishlist</a></li>
+        <li><a href="#">Contact us</a></li>
+        <li><a href="#">Returns</a></li>
+        <li><a href="#">Track my order</a></li>
+      </ul>
+      <p class="legal-info">©2025 Doumbia Online All rights reserved</p>
+    </footer>
+    <script src="../js/page.js"></script>
+    <script src="../js/shop.js"></script>
+  </body>
+</html>
