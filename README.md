@@ -5,3 +5,11 @@ My first project, using html, css, and js.
 =======
 E commerce website for my friend's clothing shop
 >>>>>>> 2d17851854df350a7a248199d6d16f565dde0378
+
+![Homepage Screenshot](/public/assets/img/screenshots/homepage.png)
+
+![ShopPage Screenshot](/public/assets/img/screenshots/shop.png)
+
+![Cart Screenshot](/public/assets/img/screenshots/shop.png)
+
+![Login Screenshot](/public/assets/img/screenshots/login.png)
